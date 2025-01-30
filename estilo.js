@@ -10,7 +10,7 @@ simButton.addEventListener("click", function () {
     if (simClickCount === 1) {
         alert("Tem certeza?????");
     } else if(simClickCount ===2) {
-        window.location.href = "../botaoSim.html";
+        window.location.href = "botaoSim.html";
     }
 });
 
@@ -23,7 +23,7 @@ simButton.addEventListener("click", function () {
         } else if(naoClickCount ===10){
             alert("PALAAA TU NAUM MI AMAA🥺🥺!!!!")
         } else if(naoClickCount ===15){
-            window.location.href = "../botaoNao.html";
+            window.location.href = "botaoNao.html";
         }
     });
 
