@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #252525;
+    text-align: center;
+    overflow: hidden; /* Evita rolagem quando o botão se move */
+    color: white
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px; /* Espaço entre o texto e os botões */
+}
+
+button {
+    padding: 20px 40px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 3s;
+}
+
+.sim{
+    background-color: #ff0000;
+    color: white;
+    margin-right: 50px;
+}
+
+.nao {
+    background-color: #ff0000;
+    color: white;
+    position: relative; /* Mantém a posição inicial */
+}
+
+
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 40px;
+}
